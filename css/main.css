@@ -55,6 +55,7 @@ a:hover {
     align-self: end;
     border-top: solid;
     position: relative;
+    bottom: 8px;
 }
 
 .item {
@@ -115,15 +116,12 @@ a:hover {
 
 .settings {
     right: 30px;
-    bottom: 13px;
 }
 
 .terms {
     right: 104px;
-    bottom: 13px;
 }
 
 .privacy {
     right: 167px;
-    bottom: 13px;
 }
