@@ -142,3 +142,8 @@ a:hover {
 .advertising {
     left: 30px;
 }
+
+.center {
+    position: absolute;
+    bottom: 290px;
+}
