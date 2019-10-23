@@ -1,0 +1,114 @@
+#main {
+    display: grid;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    position: fixed;
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "top top top top"
+                         "left center center right"
+                         "bottom bottom bottom bottom";
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.search-button {
+    height: 36px;
+    width: 120px;
+    font-size: 14px;
+}
+
+.top {
+    grid-area: top;
+    position: relative;
+    align-self: start;
+}
+
+.left {
+    width: 100px;
+    padding: 20px;
+}
+
+.right {
+    width: 25%;
+    padding: 20px;
+}
+
+.center {
+    grid-area: center;
+    align-self: center;
+    justify-self: center;
+}
+
+.bottom {
+    grid-area: bottom;
+    align-self: end;
+    border-top: solid;
+    position: relative;
+}
+
+.item {
+    position: absolute;
+}
+
+.bottom .left .item {
+    bottom: 10%;
+}
+
+.top .right .item{
+    bottom: 50%;
+}
+
+.about {
+    left: 25px;
+    top: 23px;
+}
+
+.store {
+    left: 77px;
+    top: 23px;
+}
+
+.account {
+    right: 30px;
+    top: 16px;
+}
+
+.account-btn {
+    background-color: #4387fd;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    color: white;
+    padding: 6px 12px 7px 12px;
+    text-align: justify;
+}
+
+.account-btn:hover {
+    box-shadow: gray 0px 1px;
+}
+
+.apps {
+    right: 117px;
+    top: 19px;
+}
+
+.images {
+    right: 159px;
+    top: 23px;
+}
+
+.mail {
+    right: 217px;
+    top: 23px;
+}
