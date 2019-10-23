@@ -145,5 +145,10 @@ a:hover {
 
 .center {
     position: absolute;
-    bottom: 290px;
+    bottom: 270px;
+}
+
+.search {
+    line-height: 34px;
+    height: 34px;
 }
