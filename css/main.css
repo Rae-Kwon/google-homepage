@@ -60,6 +60,10 @@ a:hover {
     background: #f2f2f2;
 }
 
+.bottom a {
+    color: #5f6368;
+}
+
 .item {
     position: absolute;
 }
@@ -145,10 +149,65 @@ a:hover {
 
 .center {
     position: absolute;
-    bottom: 270px;
+    bottom: 130px;
+    right: 160px;
 }
 
 .search {
-    line-height: 34px;
-    height: 34px;
+    position: relative;
+    font: 16px arial, sans-serif;
+    border: none;
+    padding-left: 35px;
+    padding-right: 35px;
+    width: 490px;
+}
+
+.search:focus {
+    outline-width: 0;
+}
+
+img {
+    position: absolute;
+    bottom: 100px;
+    right: 63px;
+    padding: 25px;
+}
+
+.searchbox {
+    position: relative;
+    width: 560px;
+    padding: 10px 5px 10px 5px;
+    border-radius: 20px;
+    border: 1px solid grey;
+    left: 52px;
+    bottom: 10px;
+}
+
+.searchbox:hover {
+    box-shadow: 2px 2px 2px grey;
+}
+
+#search {
+    position: relative;
+    left: 180px;
+    top: 15px;
+}
+
+#lucky {
+    position: relative;
+    left: 200px;
+    top: 15px; 
+    width: 140px;
+}
+
+.search-button {
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+}
+
+.search-button:hover {
+    border: 1px solid #4d4747;
+    color: #4d4747;
 }
